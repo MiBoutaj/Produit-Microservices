@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: facture
+  cloud:
+    config:
+      name: facture,eureka-server,zipkin
+      uri: http://localhost:8089

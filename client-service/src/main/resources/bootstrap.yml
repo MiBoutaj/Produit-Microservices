@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: client
+  cloud:
+    config:
+      name: client,eureka-server,zipkin
+      uri: http://localhost:8089
